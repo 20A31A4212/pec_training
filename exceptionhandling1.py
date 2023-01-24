@@ -13,3 +13,5 @@ try:
 except:
     print("b cannot be 0")
 print("after the error")
+
+print("__________")

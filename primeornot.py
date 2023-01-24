@@ -1,3 +1,4 @@
+#python prog verifing that given num is prime or not
 def prime(n):
     count=0
     for i in range(1,n+1):
@@ -8,5 +9,7 @@ def prime(n):
     else:
         print("not")
 prime(4)
+
+
 
 
