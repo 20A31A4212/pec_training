@@ -1,3 +1,4 @@
+
 class Student:
     student_name="No name"
     def __init__(self,name):

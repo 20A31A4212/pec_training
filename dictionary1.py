@@ -1,3 +1,4 @@
+
 print("DICTIONARY")
 details={}
 username1=input("enter 1st username")

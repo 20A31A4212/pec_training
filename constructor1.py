@@ -1,3 +1,4 @@
+
 #syntax of constructor--> def __init__(self):-->default constructor
 class Student:
     student_name=""
