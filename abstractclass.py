@@ -22,6 +22,10 @@ class Circle(Area):
     def calculate_circle_area(self):
         print("in circle calculate_circle area method")
 
+
+"""we cant create an obj for abstract class by using obj of child class
+ we can access the methods of abstract class"""
+
 ob=Square()
 ob.calculate_area()
 ob.calculate_circle_area()

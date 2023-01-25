@@ -1,18 +1,19 @@
-rows=3
-col=3
+row=2
+col=2
 arr1=[]
-temp=[]
-for i in range(rows):
-    temp=input("enter ele in rows").split(' ')
+for i in range(row):
+    temp=input("enter ele in row:").split()
+    ele=list(map(int,temp))
     arr1.append(ele)
- for j in range(col):
-
-        temp=input("enter ele in rows:").split(' ')
+print(arr1)
+arr2=[]
+for i in range(row):
+    temp=input("enter ele in row:").split()
+    ele=list(map(int,temp))
     arr2.append(ele)
 print(arr2)
-
-res=[[0 for j in range(col)] for i in range(row)]
-for i in range(rows):
+res= [[0 for i in range(col)] for i in range(row)]
+for i in range(row):
     for j in range(col):
-        res[i][j]
-
+        res[i][j]=arr1[i][j]+arr2[i][j]
+print(res)

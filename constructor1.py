@@ -2,7 +2,7 @@
 #syntax of constructor--> def __init__(self):-->default constructor
 class Student:
     student_name=""
-    def __init__(self,name): #constructor is used to initialize class variables
+    def __init__(self,name):#constructor is used to initialize class variables
         print("obj created")
         print(name)
 s1=Student("mukesh")
